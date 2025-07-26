@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.heroBanner {
+    display: flex;
+    padding-inline: 5em;
+    align-items: center;
+}
+.infoSection h1 {
+font-family: Poppins;
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 108px;
+text-transform: uppercase;
+}
+.description {
+    font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+color: #5A5959;
+
+}
+.options {
+    display: flex;
+    gap: 2em;
+    margin-block: 2em;
+}
+.options .shop {
+    background-color: #D01C28;
+    color: white;
+    padding: 6px 16px;
+    font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 24px;
+}
+.options .category {
+    padding: 6px 16px;
+    border: 1px solid black;
+    font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 24px;
+color: #5A5959;
+
+}
+.availability {
+    font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+color: #5A5959;
+margin-bottom: 2em;
+}

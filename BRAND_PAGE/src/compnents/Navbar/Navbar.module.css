@@ -1,0 +1,42 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}:root {
+    --red : #d01c28;
+    --gray : #2e2e2e;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5em;
+    height: 72px;
+    padding-block: 1em;
+}
+ul {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+}
+li {
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logIn {
+    padding: 6px 16px;
+    background-color: var(--red);
+    height: 32px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 12px;
+
+}
